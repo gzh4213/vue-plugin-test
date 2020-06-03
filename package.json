@@ -1,11 +1,16 @@
 {
-  "name": "vue-plugin-test",
+  "name": "vue-plugin-gzh-test",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "npm包构建测试",
+  "main":"lib/toast.umd.min.js",
+  "license": "MIT",
+  "author": "guozhen",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name toast --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
