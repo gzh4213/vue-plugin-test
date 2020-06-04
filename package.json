@@ -1,6 +1,6 @@
 {
   "name": "vue-plugin-gzh-test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "npm包构建测试",
   "main": "lib/gzh-ui.umd.min.js",
