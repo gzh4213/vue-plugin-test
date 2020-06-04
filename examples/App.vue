@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    Hello
-    <toast></toast>
+    Hello Vue
+    <div class="container">
+      <Button @click="onShowToast">Toast</Button>
+
+    </div>
   </div>
 </template>
 
@@ -10,6 +13,14 @@
 export default {
   name: 'App',
   components: {
+  },
+  created () {
+    console.log('this:',this)
+  },
+  methods: {
+    onShowToast () {
+      this.$toast.show('我是toast内容')
+    }
   }
 }
 </script>

@@ -3,14 +3,18 @@
   "version": "0.1.0",
   "private": false,
   "description": "npm包构建测试",
-  "main":"lib/toast.umd.min.js",
+  "main": "lib/gzh-ui.umd.min.js",
   "license": "MIT",
   "author": "guozhen",
+  "keywords": [
+    "front-end",
+    "javascript",
+    "vue",
+    "vuejs"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name toast --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name gzh-ui --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
