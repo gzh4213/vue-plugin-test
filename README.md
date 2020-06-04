@@ -17,6 +17,7 @@ npm run serve
 // pages/index.js: 打包入口
 
 import { Toast } from 'vue-plugin-gzh-test'
+import 'vue-plugin-gzh-test/lib/gzh-ui.css'
 Vue.use(Toast)
 ```
 
